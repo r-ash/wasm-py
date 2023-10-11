@@ -1,0 +1,6 @@
+*.pyc
+__pycache__
+.coverage*
+.idea
+.direnv
+.pytest_cache
