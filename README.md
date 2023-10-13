@@ -1,8 +1,8 @@
 # wasm-py
 
 This repo contains an example of 
-* A Rust project which compiles to wasm
-* A python project which then calls the wasm binary using wasmer
+* A Rust library project which compiles to wasm
+* A python project which then calls the wasm module using wasmer
 
 To run this
 1. Clone the repo
