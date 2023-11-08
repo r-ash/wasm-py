@@ -6,7 +6,7 @@ This repo contains an example of
 
 To run this
 1. Clone the repo
-1. Build the Rust project `(cd wasm-add && cargo build --release)`
+1. Build the Rust project `(cd wasm-add && cargo build --release)`. If this is your first time building wasm from Rust you'll also need to run `rustup target add wasm32-unknown-unknown`
 1. Copy the wasm into the Python project `cp wasm-add/target/wasm32-unknown-unknown/release/wasm_add.wasm adder-py/src/adder_py/resources/adder.wasm`
 1. Run the python project tests `(cd adder-py && hatch run test)`
 
